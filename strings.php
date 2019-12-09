@@ -14,7 +14,7 @@ print($hello= "hello");
 // ?? Concatenar en una cadena de texto una variable declarada previamente
 
 //Ejecuta la función que permite reemplazar texto en una cadena ( sensible a mayúsculas / minúsculas )
-$replace = str_replace("Hello", "You!", "Hello World!");
+$replace = str_replace("World", "Alfonso!", "Hello World!");
 var_dump($replace);
 
 //Ejecuta la función que permite reemplazar texto en una cadena ( sin que tenga en cuenta mayúsculas / minúsculas )
@@ -28,11 +28,24 @@ echo "the length of the $replace string is: ";
 echo strlen($replace);
 
 //Ejecuta la función que permita obtener la posición de la primera ocurrencia de un texto dentro de una cadena de texto
+$string = 'Hello123';
+$find= 2;
+$position = pos($string, $find);
+echo "<br> $find is in position $position of my $string<br>"
 
 //Ejecuta la función que permita transformar a mayúsculas una cadena de texto
+$onestring = 'abcdef';
+$mayus= strtoupper($onestring);
+echo $onestring;
 
 //Ejecuta la función que permita transformar a minúsculas una cadena de texto
+$anotherstring = 'aBcDe12fGh';
+$minusc= strtolower($anotherstring);
+echo $anotherstring."is now lowercase<br>";
 
 //Ejecuta la función que permita obtener una subcadena de texto a partir de la posición
+$onemorestring= 'Hello to all';
+$substr= substr($onemorestring, 6);
+echo $onmorestring;
 
 ?>
