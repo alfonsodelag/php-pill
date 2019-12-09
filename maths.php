@@ -17,8 +17,8 @@ echo("<br>Min: 5,6,7,8,9 <br>");
 $min = min(5,6,7,8,9);
 echo $min;
 //Define una variable cuyo valor sea el resultado de la función que retorna un número aleatorio
-echo("<br>Random: 4,5,6,7 <br>");
-$random = rand(4,5,6,7);
+$random = rand(4,10);
+echo('<br> Random between 4 and 10');
 echo $random;
 
 ?>
