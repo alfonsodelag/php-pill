@@ -41,6 +41,7 @@ function minuteEval (){
 
 //Crea una estructura de control de tipo switch para que se muestre un mensaje diferente dependiendo del día de la semana actual. Puedes escribir cualquier tipo de mensaje, lo importante es que entiendas cómo funciona y en qué casos usarlo.
 switch(date('l')) {
+    
     case "Monday":
     echo("<br> Today is Monday <br>");
     break;
