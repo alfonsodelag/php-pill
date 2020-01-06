@@ -17,6 +17,6 @@ echo "Today is " . date("m"). "<br>"
 echo "The time is " . date("i");
 
 //Instanciar la clase DateTIme y posteriormente invocar al método format con el argumento “Y-m-d” para que muestre año-mes-dia
-
-
+$time  = new dateTime();
+echo $time -> format("Y-m-d");
 ?>
